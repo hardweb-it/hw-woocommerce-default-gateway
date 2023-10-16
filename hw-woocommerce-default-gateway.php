@@ -14,11 +14,11 @@
 	* @wordpress-plugin
 	* Plugin Name:       	Default Gateway for WooCommerce
 	* Description:       	Manage the default chosen Payment method on checkout, easily!
-	* Version:           	1.2
-	* Requires at least: 	6.0.1
-	* Tested up to: 		6.3.1
-	* WC requires at least: 4.4
-	* WC tested up to: 		8.2.0
+	* Version:				1.3
+	* Requires at least:	6.0.1
+	* Tested up to:			6.3.1
+	* WC requires at least:	4.4
+	* WC tested up to:		8.2.0
 	* Author:            	Hardweb.it
 	* Author URI:        	https://hardweb.it/
 	* License:           	GPL-2.0+
@@ -38,7 +38,7 @@ define( 'HW_WC_DEFAULT_GATEWAY_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 //Load some admin styles
 add_action('admin_enqueue_scripts', 'hw_wc_default_gateway_load_scripts');
 function hw_wc_default_gateway_load_scripts() {
-  wp_enqueue_style('hw-woocommerce-default-gateway', HW_WC_DEFAULT_GATEWAY_PLUGIN_URL . '/assets/css/hw-woocommerce-default-gateway . css', null, null, 'all');
+  wp_enqueue_style('hw-woocommerce-default-gateway', HW_WC_DEFAULT_GATEWAY_PLUGIN_URL . '/assets/css/hw-woocommerce-default-gateway.css', null, null, 'all');
 }
 
 //set the chosen default gateway to current checkout session

@@ -3,7 +3,7 @@ Tags: woocommerce, default, gateway, payment, method, woo, paypal
 Requires at least: 6.0.1
 Tested up to: 6.3.1
 Requires PHP: 7.1 or later
-Stable tag: 1.2
+Stable tag: 1.3
 WC requires at least: 4.4
 WC tested up to: 8.2.0
 Contributors: giangel84
